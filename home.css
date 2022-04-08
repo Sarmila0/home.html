@@ -1,0 +1,72 @@
+body{
+    background-color:deepskyblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+}
+.Mainbody{
+    background-color: white;
+    height:fit-content;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    position: relative; 
+}
+.image{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.image img{
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+    position: absolute;
+    top: -40px;
+}
+
+.inputpart{
+    margin-top: 70px;
+    padding: 10px;
+}
+.inputpart .Name input{
+    width: 100%;
+}
+img{
+    height:20px;
+}
+.Name{
+    height:35px;
+    width:100%;
+    display: flex;
+    border: 1px solid gray;
+    margin: 30px 0px;
+}
+.Name input{
+    border: none;
+}
+
+
+/* sign in section */
+
+.cbox{
+
+   display: flex;
+   justify-content:space-between;
+    width:300px;
+
+}
+.cbox button{
+    background-color:orangered;
+    height: 35px;
+  
+  
+}
+.LS{
+    display: flex;
+    align-items: center;
+}
